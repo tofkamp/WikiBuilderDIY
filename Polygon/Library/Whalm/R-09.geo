@@ -1,0 +1,62 @@
+def hole1()
+	forward	17.999649999999747;
+	rotate	90.0;
+	forward	53.999999999999886;
+	rotate	90.0;
+	forward	17.999649999999747;
+end
+def hole2()
+	rotate	-90.0;
+	forward	53.999999999999886;
+	rotate	-90.0;
+	forward	18.000269999999546;
+	rotate	-90.0;
+	forward	53.999999999999886;
+end
+def hole3()
+	rotate	180.0;
+	forward	18.000119999999697;
+	rotate	-90.0;
+	forward	53.999999999999886;
+	rotate	-90.0;
+	forward	18.000119999999697;
+end
+def main()
+	hole hole1	at -1738.5742599999994,30.0;
+	hole hole2	at -1100.5659999999998,83.99999999999989;
+	hole hole3	at -80.98625999999967,30.0;
+	rotate	-179.9999893124847;
+	connector 0,0,18,-54;
+	forward	1790.5743100000311;
+	connector 0,0,18,78;
+	rotate	-90.00001068751531;
+	forward	18.00036399999999;
+	rotate	89.99982517455078;
+	forward	39.00003000018079;
+	rotate	-89.99982517455078;
+	forward	77.99995100000001;
+	rotate	-90.00014691214213;
+	forward	39.000030000127445;
+	rotate	90.00014691214213;
+	forward	17.999599999999987;
+	rotate	-89.99998720058048;
+	connector 0,0,18,-78;
+	forward	1790.5743100000448;
+	rotate	-90.00001279941954;
+	forward	18.0;
+	rotate	90.0;
+	connector 0,0,-18,54;
+	forward	53.99967000000106;
+	rotate	90.0;
+	forward	18.0;
+	rotate	-90.0;
+	forward	87.85866999999871;
+	rotate	-90.0;
+	forward	114.0;
+	rotate	-90.0;
+	forward	87.85866999999871;
+	rotate	-90.0;
+	forward	18.000029999999924;
+	rotate	90.0;
+	forward	53.99967000000106;
+end

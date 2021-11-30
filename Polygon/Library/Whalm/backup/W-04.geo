@@ -1,0 +1,23 @@
+def main()
+	forward	100.00000000000045;
+	rotate	-90.0;
+	forward	18.0;
+	rotate	90.0;
+	forward	99.99999999999955;
+	rotate	90.0;
+	forward	18.0;
+	rotate	-90.0;
+	forward	100.0003000000006;
+	rotate	90.0;
+	forward	189.0000339999999;
+	rotate	90.0;
+	forward	100.0003000000006;
+	rotate	-90.0;
+	forward	18.000007000000096;
+	rotate	90.0;
+	forward	99.99999999999955;
+	rotate	90.0;
+	forward	18.000007000000096;
+	rotate	-90.0;
+	forward	100.00000000000045;
+end

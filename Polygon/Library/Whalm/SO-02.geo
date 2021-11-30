@@ -1,0 +1,30 @@
+def main()
+	connector 0,0,-18,68;
+	forward	68.13800000000083;
+	rotate	-90.0;
+	forward	57.00000000000091;
+	rotate	-90.0;
+	forward	518.1384800000014;
+	rotate	-90.0;
+	forward	75.0;
+	rotate	-90.0;
+	forward	50.000480000002426;
+	rotate	-90.0;
+	forward	17.99999999999909;
+	rotate	90.0;
+	connector 0,0,-18,100;
+	forward	100.0;
+	rotate	90.0;
+	forward	17.99999999999909;
+	rotate	-90.0;
+	forward	99.99951999999757;
+	rotate	-90.0;
+	forward	17.99999999999909;
+	rotate	90.0;
+	connector 0,0,-18,100;
+	forward	100.00048000000061;
+	rotate	90.0;
+	forward	17.99999999999909;
+	rotate	-90.0;
+	forward	100.0;
+end

@@ -1,0 +1,25 @@
+The library is a dictionary of every name, containing the shape.
+
+Every shape has the following information:
+connectors2 = list of connectors2
+#edges = not used (yet)
+faces = list of triple of quad vertices-point-nrs with a face of the shape. Can be used to show the shape in 3D or export it to obj file
+name = the name of the shape
+thickness = 18 The thickness of the plate where shapes can be cut out to make 3d objects (wikihouse) in mm
+vertices = list of xyz coordinates for every point, start counting from 1 (see faces)
+centroid = x,y,z center of object
+volume = the volume in mm3 (cubic mm)
+
+a connectors2 (like a box) object has:
+centroid =  x,y,z center of object
+#edges = not used (yet)
+#faces = list of triple of quad vertices-point-nrs with a face of the shape. Can be used to show the shape in 3D or export it to obj file
+#vertices = list of xyz coordinates for every point, start counting from 1 (see faces)
+type = size in text with "x" between, sorted from smaal to large, eg "18x18x60"
+widthX the widht in x direction of the whole cube
+heightY the height in Y direction of the whole cube
+depthZ in Z direction, usual is this 18mm
+rotateZ rotation around Z axis in degrees, (depends of which way the last line was drawn)
+
+
+

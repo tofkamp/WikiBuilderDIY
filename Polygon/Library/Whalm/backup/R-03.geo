@@ -1,0 +1,39 @@
+def hole1()
+	forward	18.000006900000002;
+	rotate	90.0;
+	forward	53.999999999999886;
+	rotate	90.0;
+	forward	18.000006900000002;
+end
+def main()
+	hole hole1	at 1037.999987,0.0;
+	forward	18.000009999999975;
+	rotate	-90.0;
+	forward	30.0;
+	rotate	90.0;
+	forward	1090.00003;
+	rotate	90.0;
+	forward	18.000029999999924;
+	rotate	-90.0;
+	forward	39.000034;
+	rotate	90.0;
+	forward	77.99997000000008;
+	rotate	90.0;
+	forward	39.000034;
+	rotate	-90.0;
+	forward	18.0;
+	rotate	90.0;
+	forward	808.00011;
+	rotate	90.0;
+	forward	56.99993600000005;
+	rotate	-90.0;
+	forward	18.000000000000114;
+	rotate	-90.0;
+	forward	56.99993600000005;
+	rotate	90.0;
+	forward	263.99992;
+	rotate	90.0;
+	forward	30.000000000000114;
+	rotate	-90.0;
+	forward	18.000009999999975;
+end

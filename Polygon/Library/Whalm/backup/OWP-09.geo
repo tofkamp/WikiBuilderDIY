@@ -1,0 +1,99 @@
+def hole1()
+	forward	100.00014999999985;
+	rotate	90.0;
+	forward	17.99976000000015;
+	rotate	90.0;
+	forward	100.00014999999985;
+end
+def hole2()
+	rotate	180.0;
+	forward	100.00014999999985;
+	rotate	90.0;
+	forward	18.000080000000025;
+	rotate	90.0;
+	forward	100.00014999999985;
+end
+def hole3()
+	rotate	180.0;
+	forward	100.00019999999995;
+	rotate	90.0;
+	forward	17.99976000000015;
+	rotate	90.0;
+	forward	100.00019999999995;
+end
+def hole4()
+	rotate	180.0;
+	forward	100.00019999999995;
+	rotate	90.0;
+	forward	18.000080000000025;
+	rotate	90.0;
+	forward	100.00019999999995;
+end
+def main()
+	hole hole1	at 7.99989000000005,875.0002399999998;
+	hole hole2	at 108.0000399999999,-175.0;
+	hole hole3	at 308.0001399999999,893.0;
+	hole hole4	at 308.0001399999999,-175.0;
+	rotate	180.0;
+	forward	17.999860000000126;
+	rotate	-90.0;
+	forward	100.00014999999985;
+	rotate	-90.0;
+	forward	17.999860000000126;
+	rotate	90.0;
+	forward	99.9998499999997;
+	rotate	90.0;
+	forward	17.999860000000126;
+	rotate	-90.0;
+	forward	100.00000000000045;
+	rotate	-90.0;
+	forward	17.999860000000126;
+	rotate	90.0;
+	forward	99.9998599999999;
+	rotate	90.0;
+	forward	17.999860000000126;
+	rotate	-90.0;
+	forward	99.99990000000025;
+	rotate	-90.0;
+	forward	17.999860000000126;
+	rotate	90.0;
+	forward	99.99990999999955;
+	rotate	90.0;
+	forward	17.999860000000126;
+	rotate	-90.0;
+	forward	100.00032999999985;
+	rotate	-90.0;
+	forward	17.999860000000126;
+	rotate	90.0;
+	forward	100.00000000000045;
+	rotate	90.0;
+	forward	17.999860000000126;
+	rotate	-90.0;
+	forward	75.00023999999985;
+	rotate	90.0;
+	forward	81.00011999999992;
+	rotate	-90.0;
+	forward	55.99976000000015;
+	rotate	108.43494404827493;
+	forward	37.94734140885364;
+	rotate	-108.43494404827493;
+	forward	30.999999999999545;
+	rotate	-90.0;
+	forward	507.59744;
+	rotate	-90.0;
+	forward	1199.9999999999995;
+	rotate	-90.0;
+	forward	507.59744;
+	rotate	-90.0;
+	forward	30.999899999999798;
+	rotate	-108.43480080873833;
+	forward	37.94730978620346;
+	rotate	108.43480080873833;
+	forward	56.0;
+	rotate	-90.0;
+	forward	81.00011999999992;
+	rotate	90.0;
+	forward	74.9998599999999;
+	rotate	-90.0;
+	forward	17.999860000000126;
+end
